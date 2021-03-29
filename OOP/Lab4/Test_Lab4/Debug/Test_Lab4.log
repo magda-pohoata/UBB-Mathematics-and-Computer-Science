@@ -1,0 +1,17 @@
+﻿  Test_Lab4.cpp
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(236,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(237,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(242,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(243,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(248,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(249,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(254,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(255,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(260,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(261,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(266,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(267,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(272,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\VISUAL STUDIO\Lab4\Test_Lab4\Test_Lab4.cpp(273,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     Creating library D:\VISUAL STUDIO\Lab4\Debug\Test_Lab4.lib and object D:\VISUAL STUDIO\Lab4\Debug\Test_Lab4.exp
+  Test_Lab4.vcxproj -> D:\VISUAL STUDIO\Lab4\Debug\Test_Lab4.dll
