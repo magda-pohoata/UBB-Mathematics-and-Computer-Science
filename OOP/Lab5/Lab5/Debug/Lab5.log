@@ -1,0 +1,9 @@
+﻿  Menu.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\Menu.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Request.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\Request.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+D:\VISUAL STUDIO\Lab5\Lab5\Request.cpp(68,12): warning C4101: 'date': unreferenced local variable
+  Generating Code...
+  Lab5.vcxproj -> D:\VISUAL STUDIO\Lab5\Debug\Lab5.exe
