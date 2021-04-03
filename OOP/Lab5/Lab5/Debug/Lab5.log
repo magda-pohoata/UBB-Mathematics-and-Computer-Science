@@ -1,0 +1,36 @@
+﻿  Controller.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\Controller.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+D:\VISUAL STUDIO\Lab5\Lab5\Controller.cpp(25,30): warning C4101: 'e': unreferenced local variable
+D:\VISUAL STUDIO\Lab5\Lab5\Controller.cpp(28,14): warning C4101: 'e': unreferenced local variable
+D:\VISUAL STUDIO\Lab5\Lab5\Controller.cpp(47,31): warning C4101: 'e': unreferenced local variable
+D:\VISUAL STUDIO\Lab5\Lab5\Controller.cpp(50,15): warning C4101: 'e': unreferenced local variable
+  DynamicArray.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\DynamicArray.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  FileLogger.cpp
+  OfflineLesson.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\OfflineLesson.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  main.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\main.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  OnlineLesson.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\OnlineLesson.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Repo.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\Repo.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Request.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\Request.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+D:\VISUAL STUDIO\Lab5\Lab5\Request.cpp(63,52): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\VISUAL STUDIO\Lab5\Lab5\Request.cpp(64,1): warning C5043: 'operator >>': exception specification does not match previous declaration
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(13): message : see declaration of 'operator >>'
+  ScreenLogger.cpp
+  UI.cpp
+D:\VISUAL STUDIO\Lab5\Lab5\UI.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\VISUAL STUDIO\Lab5\Lab5\Request.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\VISUAL STUDIO\Lab5\Lab5\UI.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Generating Code...
+  Lab5.vcxproj -> D:\VISUAL STUDIO\Lab5\Debug\Lab5.exe
