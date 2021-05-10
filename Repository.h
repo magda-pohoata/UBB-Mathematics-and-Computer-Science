@@ -20,6 +20,7 @@ public:
 
 	ostream& display(ostream& os, bool(*filterFunction)(ArchitecturalStructure* a));
 	void displayByType(string);
+	void displayByYear(int);
 
 
 	void loadFromCSV(const string& csvFilepath)
@@ -63,6 +64,8 @@ public:
 				g << endl << *m_repo[i];
 			}
 		}
+		else
+			g << "";
 
 		g.close();
 

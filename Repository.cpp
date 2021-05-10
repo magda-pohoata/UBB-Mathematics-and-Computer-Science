@@ -42,7 +42,7 @@ ArchitecturalStructure* Repository::deleteRepo(int id)
 	}
 	else
 	{
-		throw exception();
+		throw exception("Invalid ID");
 	}
 	return a;
 }
@@ -64,33 +64,57 @@ ostream& Repository::display(ostream& os, bool(*filterFunction)(ArchitecturalStr
 
 void Repository::displayByType(string type)
 {
+	if (m_repo.size() == 0)
+		throw exception("Nothing in repo");
+
 	vector <ArchitecturalStructure*> Churches;
 	vector <ArchitecturalStructure*> Castles;
 
 	for (auto i = 0; i < m_repo.size(); i++)
 	{
-		if (dynamic_cast<Church*>(m_repo[i]))
+		if (m_repo[i]->getType()==1)
 			Churches.push_back(m_repo[i]);
-		
-		if (dynamic_cast<Castle*>(m_repo[i]))
-			Castles.push_back(m_repo[i]);
+		else
+			if (m_repo[i]->getType() == 2)
+				Castles.push_back(m_repo[i]);
 	}
 
 	if (type == "1")
 	{
-		for (auto i = 0; i < Castles.size(); i++)
-			Castles[i]->display(cout);
+		if (Churches.size() == 0)
+			throw exception("There are no churches");
+		cout << endl;
+		for (auto i = 0; i < Churches.size(); i++)
+			cout << *Churches[i] << endl;
+		cout << endl;
 	}
 	else
 	{
-		for (auto i = 0; i < Churches.size(); i++)
-			Churches[i]->display(cout);
+		if (Castles.size() == 0)
+			throw exception("There are no castles");
+		cout << endl;
+		for (auto i = 0; i < Castles.size(); i++)
+			cout << *Castles[i] << endl;
+		cout << endl;
 	}
+}
+
+void Repository::displayByYear(int year)   //display all arch str built after a specified year
+{
+	bool ok = false;
+	for (auto i = 0; i < m_repo.size(); i++)
+		if (m_repo[i]->getYear() >= year)
+		{
+			ok = true;
+			cout << *m_repo[i] << endl;
+		}
+	if (ok == false)
+		throw exception("There are no architectural structures to show");
 }
 
 
 Repository::~Repository()
 {
-	for (int i = 0; i <= m_repo.size(); i++)
+	for (int i = 0; i < m_repo.size(); i++)
 		delete m_repo[i];
 }

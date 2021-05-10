@@ -19,6 +19,7 @@ public:
 	void displayAllUI();
 	void displayByCountryUI();
 	void displayByYearUI();
+	void displayByType();
 	void redoUI();
 	void undoUI();
 	void showUI();
